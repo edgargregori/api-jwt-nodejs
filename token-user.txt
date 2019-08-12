@@ -1,0 +1,13 @@
+postman crear un usuario:
+		
+POST:			http://3.82.122.13:3000/auth/register
+[
+	{"key":"username","value":"usuario1","description":""},
+	{"key":"email","value":"usuario1@mail.com","description":""},
+	{"key":"password","value":"usuario1","description":""}
+]
+
+POST:			http://3.82.122.13:3000/auth/login
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQG1haWwuY29tIiwidXNlcm5hbWUiOiJ1c3VhcmlvMSIsIl9pZCI6IjVkNTBiMmFiYWUxZjljMjBlYmQzNjA3MCIsImlhdCI6MTU2NTU2OTgxNn0.vVtirOIOS7Oef9YBYgsgNJ5Pku3DtwQAObPOhxj_PWo"
+}

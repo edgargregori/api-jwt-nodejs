@@ -1,0 +1,12 @@
+Servicio:
+	sudo service mongod start
+	sudo service mongod status
+	
+Shell Mongodb
+	$ mongo
+	$ mongod
+	$ show databases
+	$ use <name-databse>
+	$ show collections
+	$ 
+

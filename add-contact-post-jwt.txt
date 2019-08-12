@@ -1,0 +1,19 @@
+Postman create contact
+
+	POST: 	http://3.82.122.13:3000/contact
+		Cabeceras:
+			JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzdWFyaW8xQG1haWwuY29tIiwidXNlcm5hbWUiOiJ1c3VhcmlvMSIsIl9pZCI6IjVkNTBiMmFiYWUxZjljMjBlYmQzNjA3MCIsImlhdCI6MTU2NTU2OTgxNn0.vVtirOIOS7Oef9YBYgsgNJ5Pku3DtwQAObPOhxj_PWo
+
+		Body:
+			firstName: jhon
+			lastName: nash
+
+
+RESULTADO:
+	{
+    "__v": 0,
+    "firstName": "jhon",
+    "lastName": "nash",
+    "_id": "5d50c01ab4012826757ef880",
+    "created_date": "2019-08-12T01:25:46.737Z"
+}
