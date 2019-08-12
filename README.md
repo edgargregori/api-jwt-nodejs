@@ -5,7 +5,7 @@ Requisitos:
 	Mongodb v3.2.19
 
 
-Uso
+Uso exclusivo de POSTMAN para hacer pruebas.
 
 	Autenticarse registrando "user"
 		POST:     http://3.82.122.13:3000/auth/register
